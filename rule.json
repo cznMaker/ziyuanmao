@@ -1,0 +1,31 @@
+[
+  {
+    "articleStyle": 2,
+    "cacheFirst": false,
+    "customOrder": 20,
+    "enableJs": true,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 22041211AC Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1786951322015,
+    "loadWithBaseUrl": true,
+    "preload": false,
+    "ruleArticles": "[class=\"video-item\"]",
+    "ruleContent": "var data=JSON.parse(result.match(/var data=({.*?})/)[1]);var html=data.content;var video=html.match(/src=\"([^\"]+\\.m3u8[^\"]*)\"/);if(video){return video[1]}return '';",
+    "ruleImage": "img@src",
+    "ruleLink": "a@href",
+    "ruleNextPage": "class=\"page-item-next\" a@href||/p/1/c/33?page={{page}}",
+    "rulePubDate": "span.date@text",
+    "ruleTitle": "h3.title@text",
+    "showWebLog": false,
+    "singleUrl": false,
+    "sortUrl": "首页::https://ptt.co/zh-cn/p/1/c/33?page={{page}}\n搜索::https://ptt.co/zh-cn/q/{{keyword}}?page={{page}}\n大陆伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=2&page={{page}}\n香港伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=5&page={{page}}\n台湾伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=4&page={{page}}\n韩国伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=17&page={{page}}\n日本伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=18&page={{page}}\n欧美伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=6&page={{page}}\n其它伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=3&page={{page}}\n泰国伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=10&page={{page}}\n印度伦理::https://ptt.co/zh-cn/p/1/c/33?area_id=14&page={{page}}",
+    "sourceComment": "PTT伦理影视资源",
+    "sourceGroup": "影",
+    "sourceIcon": "https://ptt.co/favicon.ico",
+    "sourceName": "PTT伦理",
+    "sourceUrl": "https://ptt.co/zh-cn/",
+    "style": {"type": "rect", "ratio": 1.33},
+    "type": 0
+  }
+]
