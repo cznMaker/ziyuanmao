@@ -15,7 +15,7 @@
       "isSupportSearch": true,
       "isSupportHomeRecommends": false,
       "autoInstallAtFirstLaunch": false,
-      "downloadUrl": "https://raw.githubusercontent.com/cznMaker/ziyuanmao/main/ptt_rule.json",
+      "downloadUrl": "https://github.com/cznMaker/ziyuanmao/blob/main/rule.json",
       "engineType": "Mac"
     }
   ]
