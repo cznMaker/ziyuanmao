@@ -1,7 +1,7 @@
 {
   "name": "PTT伦理订阅",
   "icon": "https://ptt.co/favicon.ico",
-  "description": "PTT伦理影视资源，支持分类浏览和搜索",
+  "description": "PTT伦理影视资源",
   "list": [
     {
       "id": "ptt_lunli",
@@ -15,7 +15,7 @@
       "isSupportSearch": true,
       "isSupportHomeRecommends": false,
       "autoInstallAtFirstLaunch": false,
-      "downloadUrl": "https://github.com/cznMaker/ziyuanmao/blob/main/ptt.json",
+      "downloadUrl": "https://raw.githubusercontent.com/cznMaker/ziyuanmao/main/ptt_rule.json",
       "engineType": "Mac"
     }
   ]
