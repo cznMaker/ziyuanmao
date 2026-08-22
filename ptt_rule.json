@@ -1,0 +1,19 @@
+{
+  "video": {
+    "sites": [
+      {
+        "key": "ptt_lunli",
+        "name": "🔞PTT伦理",
+        "type": 3,
+        "api": "https://ptt.co/zh-cn/p/1/c/33",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "style": {
+          "type": "rect",
+          "ratio": 1.33
+        }
+      }
+    ]
+  }
+}
