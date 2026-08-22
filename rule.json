@@ -1,4 +1,4 @@
-[
+{
   {
     "articleStyle": 2,
     "cacheFirst": false,
@@ -28,4 +28,4 @@
     "style": {"type": "rect", "ratio": 1.33},
     "type": 0
   }
-]
+}
