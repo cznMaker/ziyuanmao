@@ -1,21 +1,21 @@
 {
   "name": "PTT伦理订阅",
-  "icon": "https://cdn.sshs.rip/20/6e/20a43d023d77b2839892076750cb0f6e.webp",
-  "description": "PTT伦理影视资源",
+  "icon": "https://ptt.co/favicon.ico",
+  "description": "PTT伦理影视资源，支持分类浏览和搜索",
   "list": [
     {
       "id": "ptt_lunli",
-      "icon": "https://cdn.sshs.rip/20/6e/20a43d023d77b2839892076750cb0f6e.webp",
+      "icon": "https://ptt.co/favicon.ico",
       "name": "🔞PTT伦理",
       "versionCode": 1,
       "versionName": "1.0.0",
-      "description": "PTT伦理影视资源，支持分类浏览",
+      "description": "PTT伦理影视资源",
       "updateDescription": "",
       "isSupportClass": true,
       "isSupportSearch": true,
       "isSupportHomeRecommends": false,
       "autoInstallAtFirstLaunch": false,
-      "downloadUrl": "https://shuyuan.nyasama.net/shuyuan/7c14137d400a1862dd320bd2217859c3.json",
+      "downloadUrl": "https://raw.githubusercontent.com/你的用户名/仓库名/main/ptt_rule.json",
       "engineType": "Mac"
     }
   ]
