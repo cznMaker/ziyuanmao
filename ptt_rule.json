@@ -4,7 +4,7 @@
       {
         "key": "ptt_lunli",
         "name": "🔞PTT伦理",
-        "type": 3,
+        "type": 1,
         "api": "https://ptt.co/zh-cn/p/1/c/33",
         "searchable": 1,
         "quickSearch": 1,
