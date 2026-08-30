@@ -1,23 +1,22 @@
 {
-  "sites": [
+  "name": "黄果短剧订阅",
+  "icon": "https://huangguoai.com/favicon.ico",
+  "description": "黄果短剧 drpy2 爬虫资源",
+  "list": [
     {
-      "key": "csp_huangguo",
+      "id": "huangguo",
+      "icon": "https://huangguoai.com/favicon.ico",
       "name": "🎬黄果短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/huangguo.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "id": "home"
-      }
-    }
-  ],
-  "parses": [
-    {
-      "name": "综合解析",
-      "url": "https://jx.zdplay.cc/m3u8/?url=",
-      "type": 1
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "description": "黄果短剧 (huangguoai.com) - AI短剧/漫剧/换脸/魔改内容",
+      "updateDescription": "",
+      "isSupportClass": true,
+      "isSupportSearch": true,
+      "isSupportHomeRecommends": true,
+      "autoInstallAtFirstLaunch": false,
+      "downloadUrl": "https://ghfast.top/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/huangguo.js",
+      "engineType": "Mac"
     }
   ]
 }
