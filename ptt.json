@@ -1,22 +1,23 @@
 {
-  "name": "PTT伦理订阅",
-  "icon": "https://ptt.co/favicon.ico",
-  "description": "PTT伦理影视资源",
-  "list": [
+  "sites": [
     {
-      "id": "ptt_lunli",
-      "icon": "https://ptt.co/favicon.ico",
-      "name": "🔞PTT伦理",
-      "versionCode": 1,
-      "versionName": "1.0.0",
-      "description": "PTT伦理影视资源",
-      "updateDescription": "",
-      "isSupportClass": true,
-      "isSupportSearch": true,
-      "isSupportHomeRecommends": false,
-      "autoInstallAtFirstLaunch": false,
-      "downloadUrl": "https://raw.githubusercontent.com/cznMaker/ziyuanmao/main/ptt_rule.json",
-      "engineType": "Mac"
+      "key": "csp_huangguo",
+      "name": "🎬黄果短剧",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/huangguo.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "id": "home"
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "综合解析",
+      "url": "https://jx.zdplay.cc/m3u8/?url=",
+      "type": 1
     }
   ]
 }
